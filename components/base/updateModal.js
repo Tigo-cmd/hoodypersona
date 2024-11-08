@@ -24,7 +24,7 @@ export default function UpdateModal({
   confirm = () => {},
   onClose = () => {},
 }) {
-  const isPhoneMode = useMediaQuery("(max-width:900px)");
+  const isPhoneMode = useMediaQuery("(max-width:800px)");
   const [price, setPrice] = useState(0);
 
   return (
