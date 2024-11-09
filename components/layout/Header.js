@@ -18,10 +18,10 @@ export default function Header({ color = false, ...props }) {
   return (
     <>
       {phoneMenuShow == true ? (
-        <div className="fixed top-0 w-full font-desc2">
+        <div className="relative w-full font-desc2">
           <div className="bg-[url('/images/main/mobileMenuBG.webp')] bg-no-repeat bg-cover h-screen w-full">
             <div className="flex flex-row justify-center py-4">
-              <div className="fixed top-0 right-0 pr-4 py-4">
+              <div className="absolute top-0 right-0 pr-4 py-4">
                 <img
                   src="/images/closeIcon.svg"
                   className="h-5 hover:brightness-200"

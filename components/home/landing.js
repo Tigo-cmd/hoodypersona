@@ -14,7 +14,7 @@ export default function Landing() {
     <>
       <div>
         <div className="font-desc2">
-          <Intro />
+          <Intro/>
           <WelcomeHoody />
           <GetHoodyGang />
           <About />
